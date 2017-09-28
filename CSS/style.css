@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+header
+{ 
+  font-family:lora,serif;
+  
+}
+body{
+  width:960px;
+  max-width:100%;
+  margin: 0 auto;
+}
+
+.intro {
+  border-top: 1px solid; 
+  border-bottom: 1px solid;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.circle
+{
+  border-radius: 50%;
+}
+
+figure {
+  display: inline-block;
+  margin: 30px;
+}
+
+
+header, .portfolio, footer {
+  text-align: center;
+}
+
+.contact {
+  background: #333;
+  color: linen;
+  padding: 30px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+figcaption {
+  border-bottom: 1px solid;
+  padding-bottom: 6px;
+}
+
+footer {
+  margin: 30px 0;
+}
